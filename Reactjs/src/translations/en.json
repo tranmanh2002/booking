@@ -1,0 +1,35 @@
+{
+    "home-header":{
+        "speciality": "Medical specialty",
+        "searchDoctor": "Find a doctor by specialty"
+    },
+
+    "menu": {
+        "admin": {
+            "manage-user": "User System",
+            "manage-doctor": "doctors management",
+            "manage-admin": "Admin management",
+            "crud": "CRUD user",
+            "crud-redux": "CRUD Redux",
+            "clinic": "Clinic",
+            "manage-clinic": "Clinics management",
+            "specialty": "Specialty",
+            "manage-specialty": "Specialties management"
+        },
+        "doctor":{
+            "manage-schedule" : "Manage Doctor's schedule"
+        }
+    },
+    "manage-user":{
+        "add": "Thêm mới người dùng",
+        "email": "Email",
+        "password": "Password",
+        "first-name": "Tên",
+        "last-name": "Họ",
+        "phone-number": "Số điện thoại",
+        "address": "Địa chỉ",
+        "gender": "Giới tính"
+
+
+    }
+}

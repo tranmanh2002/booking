@@ -1,0 +1,95 @@
+.outstandingdoctor-container{
+    height: 300px;
+    background-color: rgb(245, 242, 242);
+    .outstandingdoctor-content{
+        height: 300px;
+        margin: 0 100px;
+        display: flex;
+        flex-direction: column;
+        .outstandingdoctor-header{
+            padding-top: 15px;
+            height: 60px;
+            .title-doctor{
+                font-size: 20px;
+                font-weight: bold;
+            }
+            .btn-doctor{
+                float: right;
+                padding: 10px 15px;
+                border: none;
+                outline: none;
+                display: block;
+                font-size: 10px;
+                font-weight: bold;
+                color: black;
+                cursor: pointer;
+                background-color: rgb(229, 224, 224);
+                text-transform: uppercase;
+
+                &:hover{
+                    background-color: rgb(175, 166, 166);
+                    color: yellow;
+                }
+            }
+        }
+        .outstandingdoctor-body{
+            .img-doctor{
+                cursor: pointer;
+                .customize-border{
+                    height: 200px;
+                    width: 250px;
+                    border: 1px solid orange;
+                    .outer-bg{
+                        margin-top: 10px;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        .bg-doctor{
+                            background-size: cover !important;            
+                            margin: 0 auto;
+                            border-radius: 50%;
+                            height: 130px;
+                            width: 130px;
+                        }
+                    }
+                    .doctor-specialty{
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+.slick-prev{
+    left: -10px !important;
+    z-index: 10;
+    height: 48px !important;
+    width: 44px !important;
+    background: white !important;
+    border: 1px solid #d7d7d7 !important;
+
+    &:hover{
+        background: #d7d7d7 !important;
+    }
+}
+.slick-prev:before, .slick-next:before{
+    font-family: FontAweSome !important;
+    color: gray !important;
+}
+.slick-next{
+    border: 1px solid blue !important;
+    right: 0 !important;
+    height: 48px !important;
+    width: 44px !important;
+    background: white !important;
+    border: 1px solid #d7d7d7 !important;
+    right: -10px !important;
+    &:hover{
+        background: #d7d7d7 !important;
+    }
+}
+.section-footer{
+    text-align: center;
+    padding-top: 10px;
+    height: 50px;
+    background-color: lightblue;
+}
